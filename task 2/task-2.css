@@ -1,0 +1,64 @@
+*,
+a {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   flex: 0 1 auto;
+}
+/*шапка*/
+.header {
+   background-color: rgba(20, 16, 16, 0.8);
+   max-width: 100%;
+   min-height: 70px;
+}
+
+.menu-nav {
+   margin-top: 20px;
+}
+
+.menu-nav a {
+   font-size: 1.5 em;
+   color: white;
+   padding-right: 20px;
+}
+
+.menu-nav a:first-child {
+   font-size: 2 em;
+   margin-right: auto;
+}
+/*тело*/
+
+.sectoin-1 {
+   background-color: #cdd4db;
+   padding: 4%;
+   min-height: 40vh;
+}
+
+.card-title,
+.card-text {
+   text-align: center;
+}
+
+.card a {
+   margin-left: 20%;
+}
+
+.card img {
+   width: 100%;
+   height: auto;
+}
+
+/*футер*/
+footer {
+   width: 100%;
+   background-color: rgba(20, 16, 16, 0.8);
+}
+span::after {
+   content: "\A9";
+}

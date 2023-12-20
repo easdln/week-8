@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Intro";
+    src: url("../fonts/intro.css"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/intro.eot?#iefix") format("embedded-opentype"),
+        /* IE < 9 */ url("../fonts/intro.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/intro.woff") format("woff"),
+        /* Firefox >= 3.6, any other modern browser */ url("../fonts/intro.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("../fonts/intro.svg#intro") format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+$font-1: "Roboto Slab", serif;
+$font: "Intro";
+$bc: #5222d0;
+$color-white: #fff;
+$color-black: #000;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
